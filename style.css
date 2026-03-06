@@ -17,6 +17,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+.hero-container{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:80px 10%;
+}
+
+.hero-content{
+    max-width:600px;
+}
+
+.hero-image img{
+    width:380px;
+    border-radius:15px;
+}
 
 html {
     scroll-behavior: smooth; /* Enables smooth scrolling on hash links */
@@ -405,3 +420,4 @@ footer {
         font-size: 2rem;
     }
 }
+
